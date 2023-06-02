@@ -1,0 +1,242 @@
+/* golobal classes  */
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+    padding: 100px 0px;
+}
+.containar{
+    width: 90%;
+    margin: auto;
+}
+.under-line{
+border-top: 5px solid rgba(0, 0, 0, 0.363);
+width: 7%;
+margin: 10px auto;
+}
+.global-heading{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.small-heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+/* header pate  */
+header{
+    width: 100%;
+    float: left;
+    background-color: #87509c;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.logo-pat{
+    width: 50%;
+    float: left;
+    
+}
+.manu-pat{
+    width: 50%;
+    float: left;
+    padding: 10px 0px ;
+    text-align: end;
+}
+.manu-pat li {
+display: inline-block;
+margin: 0px 10px;
+padding: 7px;
+border-radius: 5px;
+}
+.manu-pat li:hover{
+    background-color: black;
+}
+.manu-pat a{
+font-size: 17px;
+color: #fff;
+font-weight: 600;
+text-transform: uppercase;
+}
+.hero-part{
+    width: 100%;
+    float: left;
+    margin: 150px 0px;
+    text-align: center;
+}
+.hero-part h1{
+font-size: 35px;
+font-weight: 600;
+width: 60%;
+margin: auto;
+}
+.hero-part a button{
+width: 15%;
+padding: 10px;
+margin-top: 20px;
+color: #fff;
+background-color: #eb7d4b;
+}
+.hero-part a button:hover{
+    transition: ease-in-out 0.8s;
+    border-radius: 5px;
+    box-shadow:0px 0px 4px #f35106;
+}
+
+/* servicon section  */
+#service{
+    width: 100%;
+    float: left;
+    background-color: #17c2a4;
+    color: white;
+    text-align: center;
+    
+}
+.service-writing-part{
+width: 100%;
+float: left;
+}
+.service-box-part{
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+}
+.service-box{
+  float: left;  
+  width: 25%;
+  padding: 10px;
+}
+.service-box img{
+    height: 120px;
+}
+/* team section  */
+#team{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #e7f1f8;
+}
+.team-writing-part{
+    width: 100%;
+    float: left;
+}
+.team-box-pat{
+    width: 100%;
+    /* float: left; */
+    margin-top: 50px;
+}
+.team-box{
+width: 50%;
+float: left;
+padding: 10px;
+}
+.team-box img{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+}
+.team-box p{
+margin: 15px 0px;
+}
+.team-tital{
+color: #48c1e9;
+font-size: 16px;
+font-weight: 400;
+}
+/* .team-icon{
+
+} */
+.team-icon i {
+    background-color: #bdd1df;
+    color: #fff;
+    padding: 10px;
+    width: 35px;
+    border-radius: 50px;
+    margin: 5px;
+    transition: ease-in-out 0.5s;
+}
+.team-icon i:hover{
+    background-color: #fff;
+    color: #17c2a4;
+}
+#testimonial{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #0c5f9b;  
+}
+#contact{
+width: 100%;
+float: left;
+background-color:#3c5499;
+text-align: center;
+color: #fff;
+}
+.contact-writing-part{
+width: 100%;
+float: left;
+}
+.contact-form-part{
+width: 100%;
+float: left;
+margin-top: 50px;
+}
+.form-row{
+width: 100%;
+float: left;
+}
+.form-name{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.form-email{
+    width: 50%;
+    float: left;
+    text-align: start;
+    padding: 10px;
+}
+.form-message{
+    width: 100%;
+    float: left; 
+}
+input::placeholder{
+    color: #fff;
+}
+textarea::placeholder{
+    color: #fff;
+}
+#f-name{
+width: 50%;
+background: #273a71;
+padding: 10px;
+color: #fff;
+padding: 10px;
+}
+#Email{
+    background-color: #273a71;
+    padding: 10px;
+    color: #fff;
+    width: 50%;
+}
+#massage{
+width: 100%;
+/* float: left; */
+height: 200px; 
+padding: 10px;
+background-color: #273a71;
+color: #fff;
+width: 50%;
+}
+.form-btn{
+
+}
